@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# VS
+*.sln
+*.vcxproj*
+.vs/
+
+
+build.bat
+bin/
+bin-int/
