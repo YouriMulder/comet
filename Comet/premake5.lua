@@ -24,10 +24,20 @@ project "Comet"
 	includedirs
 	{
 		"src",
+		"%{IncludeDir.GLFW}",
+		"%{IncludeDir.GLEW}"
 	}
 
+	libdirs 
+	{
+		"vendor/GLEW/lib/Release/x64"
+	}
 	links 
-	{}
+	{
+		"GLFW",
+		"GLEW32",
+		"opengl32"
+	}
 
 	filter "system:windows"
 		systemversion "latest"

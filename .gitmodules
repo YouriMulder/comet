@@ -1,0 +1,3 @@
+[submodule "GLFW"]
+	path = Comet/vendor/GLFW
+	url = https://github.com/YouriMulder/glfw

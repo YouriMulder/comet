@@ -36,7 +36,7 @@
 *.vcxproj*
 .vs/
 
-
+.vscode
 build.bat
 bin/
 bin-int/

@@ -1,3 +1,5 @@
+include "dependencies.lua"
+
 workspace "Comet"
 	architecture "x64"
 	startproject "Comet"
@@ -15,7 +17,8 @@ workspace "Comet"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
--- Include directories relative to OpenGL-Core
-IncludeDir = {}
+group "Dependencies"
+	include "Comet/vendor/GLFW"
+group ""
 
 include "Comet"
