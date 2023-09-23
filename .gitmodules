@@ -1,0 +1,6 @@
+[submodule "Comet/lib/glfw"]
+	path = Comet/lib/glfw
+	url = https://github.com/YouriMulder/glfw
+[submodule "Comet/lib/glm"]
+	path = Comet/lib/glm
+	url = https://github.com/g-truc/glm
