@@ -21,6 +21,6 @@ group "Dependencies"
 	include "comet/lib/glfw"
 group ""
 
-group "Core"
+group "core"
 	include "comet"
 group ""

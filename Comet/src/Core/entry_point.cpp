@@ -1,5 +1,5 @@
 #include "copch.hpp"
-#include "Application.hpp"
+#include "application.hpp"
 
 #ifdef COMET_PLATFORM_WINDOWS
 
